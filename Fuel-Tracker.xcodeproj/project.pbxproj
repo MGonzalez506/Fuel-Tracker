@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE681EAA2853D23000F2CF91 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681EA92853D23000F2CF91 /* Tests_iOS.swift */; };
+		BE681EAC2853D23000F2CF91 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681EAB2853D23000F2CF91 /* Tests_iOSLaunchTests.swift */; };
+		BE681EB62853D23000F2CF91 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681EB52853D23000F2CF91 /* Tests_macOS.swift */; };
+		BE681EB82853D23000F2CF91 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681EB72853D23000F2CF91 /* Tests_macOSLaunchTests.swift */; };
+		BE681EB92853D23000F2CF91 /* Fuel_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681E912853D23000F2CF91 /* Fuel_TrackerApp.swift */; };
+		BE681EBA2853D23000F2CF91 /* Fuel_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681E912853D23000F2CF91 /* Fuel_TrackerApp.swift */; };
+		BE681EBB2853D23000F2CF91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681E922853D23000F2CF91 /* ContentView.swift */; };
+		BE681EBC2853D23000F2CF91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE681E922853D23000F2CF91 /* ContentView.swift */; };
+		BE681EBD2853D23000F2CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE681E932853D23000F2CF91 /* Assets.xcassets */; };
+		BE681EBE2853D23000F2CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE681E932853D23000F2CF91 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE681EA62853D23000F2CF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE681E8C2853D22F00F2CF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE681E972853D23000F2CF91;
+			remoteInfo = "Fuel-Tracker (iOS)";
+		};
+		BE681EB22853D23000F2CF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE681E8C2853D22F00F2CF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE681E9D2853D23000F2CF91;
+			remoteInfo = "Fuel-Tracker (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE681E912853D23000F2CF91 /* Fuel_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel_TrackerApp.swift; sourceTree = "<group>"; };
+		BE681E922853D23000F2CF91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE681E932853D23000F2CF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE681E982853D23000F2CF91 /* Fuel-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE681E9E2853D23000F2CF91 /* Fuel-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE681EA02853D23000F2CF91 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BE681EA52853D23000F2CF91 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE681EA92853D23000F2CF91 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		BE681EAB2853D23000F2CF91 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		BE681EB12853D23000F2CF91 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE681EB52853D23000F2CF91 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		BE681EB72853D23000F2CF91 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE681E952853D23000F2CF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681E9B2853D23000F2CF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EA22853D23000F2CF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EAE2853D23000F2CF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE681E8B2853D22F00F2CF91 = {
+			isa = PBXGroup;
+			children = (
+				BE681E902853D23000F2CF91 /* Shared */,
+				BE681E9F2853D23000F2CF91 /* macOS */,
+				BE681EA82853D23000F2CF91 /* Tests iOS */,
+				BE681EB42853D23000F2CF91 /* Tests macOS */,
+				BE681E992853D23000F2CF91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE681E902853D23000F2CF91 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BE681E912853D23000F2CF91 /* Fuel_TrackerApp.swift */,
+				BE681E922853D23000F2CF91 /* ContentView.swift */,
+				BE681E932853D23000F2CF91 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BE681E992853D23000F2CF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE681E982853D23000F2CF91 /* Fuel-Tracker.app */,
+				BE681E9E2853D23000F2CF91 /* Fuel-Tracker.app */,
+				BE681EA52853D23000F2CF91 /* Tests iOS.xctest */,
+				BE681EB12853D23000F2CF91 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE681E9F2853D23000F2CF91 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE681EA02853D23000F2CF91 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BE681EA82853D23000F2CF91 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE681EA92853D23000F2CF91 /* Tests_iOS.swift */,
+				BE681EAB2853D23000F2CF91 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		BE681EB42853D23000F2CF91 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE681EB52853D23000F2CF91 /* Tests_macOS.swift */,
+				BE681EB72853D23000F2CF91 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE681E972853D23000F2CF91 /* Fuel-Tracker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE681EC12853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Fuel-Tracker (iOS)" */;
+			buildPhases = (
+				BE681E942853D23000F2CF91 /* Sources */,
+				BE681E952853D23000F2CF91 /* Frameworks */,
+				BE681E962853D23000F2CF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel-Tracker (iOS)";
+			productName = "Fuel-Tracker (iOS)";
+			productReference = BE681E982853D23000F2CF91 /* Fuel-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE681E9D2853D23000F2CF91 /* Fuel-Tracker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE681EC42853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Fuel-Tracker (macOS)" */;
+			buildPhases = (
+				BE681E9A2853D23000F2CF91 /* Sources */,
+				BE681E9B2853D23000F2CF91 /* Frameworks */,
+				BE681E9C2853D23000F2CF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel-Tracker (macOS)";
+			productName = "Fuel-Tracker (macOS)";
+			productReference = BE681E9E2853D23000F2CF91 /* Fuel-Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE681EA42853D23000F2CF91 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE681EC72853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				BE681EA12853D23000F2CF91 /* Sources */,
+				BE681EA22853D23000F2CF91 /* Frameworks */,
+				BE681EA32853D23000F2CF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE681EA72853D23000F2CF91 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = BE681EA52853D23000F2CF91 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BE681EB02853D23000F2CF91 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE681ECA2853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				BE681EAD2853D23000F2CF91 /* Sources */,
+				BE681EAE2853D23000F2CF91 /* Frameworks */,
+				BE681EAF2853D23000F2CF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE681EB32853D23000F2CF91 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = BE681EB12853D23000F2CF91 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE681E8C2853D22F00F2CF91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BE681E972853D23000F2CF91 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BE681E9D2853D23000F2CF91 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BE681EA42853D23000F2CF91 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BE681E972853D23000F2CF91;
+					};
+					BE681EB02853D23000F2CF91 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BE681E9D2853D23000F2CF91;
+					};
+				};
+			};
+			buildConfigurationList = BE681E8F2853D22F00F2CF91 /* Build configuration list for PBXProject "Fuel-Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE681E8B2853D22F00F2CF91;
+			productRefGroup = BE681E992853D23000F2CF91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE681E972853D23000F2CF91 /* Fuel-Tracker (iOS) */,
+				BE681E9D2853D23000F2CF91 /* Fuel-Tracker (macOS) */,
+				BE681EA42853D23000F2CF91 /* Tests iOS */,
+				BE681EB02853D23000F2CF91 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE681E962853D23000F2CF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EBD2853D23000F2CF91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681E9C2853D23000F2CF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EBE2853D23000F2CF91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EA32853D23000F2CF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EAF2853D23000F2CF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE681E942853D23000F2CF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EBB2853D23000F2CF91 /* ContentView.swift in Sources */,
+				BE681EB92853D23000F2CF91 /* Fuel_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681E9A2853D23000F2CF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EBC2853D23000F2CF91 /* ContentView.swift in Sources */,
+				BE681EBA2853D23000F2CF91 /* Fuel_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EA12853D23000F2CF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EAC2853D23000F2CF91 /* Tests_iOSLaunchTests.swift in Sources */,
+				BE681EAA2853D23000F2CF91 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE681EAD2853D23000F2CF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE681EB82853D23000F2CF91 /* Tests_macOSLaunchTests.swift in Sources */,
+				BE681EB62853D23000F2CF91 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE681EA72853D23000F2CF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE681E972853D23000F2CF91 /* Fuel-Tracker (iOS) */;
+			targetProxy = BE681EA62853D23000F2CF91 /* PBXContainerItemProxy */;
+		};
+		BE681EB32853D23000F2CF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE681E9D2853D23000F2CF91 /* Fuel-Tracker (macOS) */;
+			targetProxy = BE681EB22853D23000F2CF91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE681EBF2853D23000F2CF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE681EC02853D23000F2CF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE681EC22853D23000F2CF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Fuel-Tracker";
+				PRODUCT_NAME = "Fuel-Tracker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE681EC32853D23000F2CF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Fuel-Tracker";
+				PRODUCT_NAME = "Fuel-Tracker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE681EC52853D23000F2CF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Fuel-Tracker";
+				PRODUCT_NAME = "Fuel-Tracker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE681EC62853D23000F2CF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Fuel-Tracker";
+				PRODUCT_NAME = "Fuel-Tracker";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE681EC82853D23000F2CF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fuel-Tracker (iOS)";
+			};
+			name = Debug;
+		};
+		BE681EC92853D23000F2CF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fuel-Tracker (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE681ECB2853D23000F2CF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fuel-Tracker (macOS)";
+			};
+			name = Debug;
+		};
+		BE681ECC2853D23000F2CF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mgonzalez506.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fuel-Tracker (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE681E8F2853D22F00F2CF91 /* Build configuration list for PBXProject "Fuel-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE681EBF2853D23000F2CF91 /* Debug */,
+				BE681EC02853D23000F2CF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE681EC12853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Fuel-Tracker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE681EC22853D23000F2CF91 /* Debug */,
+				BE681EC32853D23000F2CF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE681EC42853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Fuel-Tracker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE681EC52853D23000F2CF91 /* Debug */,
+				BE681EC62853D23000F2CF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE681EC72853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE681EC82853D23000F2CF91 /* Debug */,
+				BE681EC92853D23000F2CF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE681ECA2853D23000F2CF91 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE681ECB2853D23000F2CF91 /* Debug */,
+				BE681ECC2853D23000F2CF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE681E8C2853D22F00F2CF91 /* Project object */;
+}
